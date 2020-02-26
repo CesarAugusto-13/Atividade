@@ -13,7 +13,9 @@ public class Calculadora {
         num2 = entrada.nextInt();
 
         soma = num1 = num2;
+        sub = num1 - num2;
 
         System.out.print("A soma é %d\n", soma);
+        System.out.print("A subtração é %d\n", sub);
     }
 }
